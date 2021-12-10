@@ -105,7 +105,7 @@ void SinhVien::XetHB()
             {
             dem++;	
             cout << "\n\n     " << stt++ << "           " << p->name << "            " << p->mssv << "           " << p->khoa << "              "    << p->age <<  "                 "      << p->gioitinh << "                  "      << p->diem << " ";	
-			}
+	    }
             
             p = p->next;
         }
@@ -136,7 +136,7 @@ void SinhVien::XetCanhCao()
             {
             dem++;
             cout << "\n\n     " << stt++ << "           " << p->name << "          " << p->mssv << "           " << p->khoa << "            "    << p->age <<  "                 "      << p->gioitinh << "                    "      << p->diem << " ";	
-			}
+	    }
             if(dem == 0)
             	cout << "\n\nKhong co sinh vien bi canh cao";
             p = p->next;
